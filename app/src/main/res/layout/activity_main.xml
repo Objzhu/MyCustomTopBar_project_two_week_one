@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.example.weekonecustomview.TopBar
+        app:title_text="这是我的activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_btn_bg_color="@drawable/my_clolor_selected"
+        app:left_btn_text="左侧"
+        app:left_btn_text_color="#000000"
+        app:left_btn_text_size="12dp"
+        app:right_btn_bg_color="@drawable/my_clolor_selected"
+        app:right_btn_text="右侧"
+        app:right_btn_text_color="#000000"
+        app:right_btn_text_size="12dp"
+        app:title_bg_color="@color/colorAccent"
+        app:title_text_color="#000000"
+        />
+    <Button
+        android:textColor="@color/my_clolor_selected_dd"
+        android:background="@drawable/my_clolor_selected"
+        android:text="处处存储错错"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
